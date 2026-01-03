@@ -44,7 +44,7 @@ python -m etl.main --url "https://drive.google.com/file/d/12nRUQVNdVxbi99UloXX9b
 После запуска скрипт выполняет следующее:
 
 ## Загрузка данных с Google Drive
-Сохраняет в папку ./data/raw
+Сохраняет в папку ./data/raw  
 Отображает первые 10 строк датасета для проверки
 
 ![alt text](pic/{3FC227F6-BA36-4F43-AE57-77F1A3889AC3}.png)
@@ -62,3 +62,4 @@ python -m etl.main --url "https://drive.google.com/file/d/12nRUQVNdVxbi99UloXX9b
 ## EDA
 
 Анализ и работа с данными в EDA представлены в файле [EDA.ipynb](./notebooks/EDA.ipynb)
+
